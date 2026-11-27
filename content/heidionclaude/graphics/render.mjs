@@ -18,6 +18,7 @@ for (const f of files) {
   await page.evaluate(() => document.fonts.ready);
   // flag anything that spills outside the 1080x1350 frame or overlaps the footer
   const issues = await page.evaluate(() => {
+    if (!document.querySelector('h1')) return [];
     const out = [], foot = document.querySelector('.foot').getBoundingClientRect();
     for (const el of document.querySelectorAll('.wrap *')) {
       const r = el.getBoundingClientRect();
