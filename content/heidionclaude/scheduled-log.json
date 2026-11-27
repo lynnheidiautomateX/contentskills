@@ -150,5 +150,29 @@
   "threads": "c0096811-a26f-4b10-8ea0-d4bd881a1e81",
   "tiktok": "3a5cfb3b-2f86-47ad-8c63-dd8e37bd38f8",
   "linkedin": "PENDING: reconnect LinkedIn"
+ },
+ "_carousels": {
+  "note": "Slots 2 (#5), 6 (#17), 9 (#19) use 7-slide carousels on Facebook, Instagram and TikTok. X keeps the single graphic (4-image limit). Threads is text only.",
+  "schedule_ids": {
+   "2": [
+    "7613470",
+    "7613471",
+    "7613477"
+   ],
+   "6": [
+    "7613516",
+    "7613519",
+    "7613522"
+   ],
+   "9": [
+    "7613541",
+    "7613544",
+    "7613557"
+   ]
+  }
+ },
+ "_automations": {
+  "facebook": "41312 (draft, off)",
+  "instagram": "41313 (draft, off)"
  }
 }
