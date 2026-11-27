@@ -264,9 +264,9 @@ S[29] = g("plum", "Agree?", f"""
 """ + head("Using Claude <em>isn't cheating.</em>", bottom=190, size=118, color="#FBF8F2"), "Where's your line? ↓")
 
 # 11 (redesign) S11_LOCK: a lock screen buried in AI-hype notifications, Do Not Disturb on
-notes = [("#A0466F","AI Daily","🚨 10 new AI tools you NEED","now"),
+notes = [("#A0466F","Hustle Hub","🚨 This changes EVERYTHING","now"),
          ("#B68A3E","@growthguru","You're falling behind","2m"),
-         ("#54295A","Hustle Hub","This changes EVERYTHING","5m"),
+         ("#54295A","AI Daily","10 new AI tools you NEED","5m"),
          ("#8C6A2A","@10xfounder","I automated my whole life","9m")]
 cards = "".join(f"""<div style="background:rgba(251,248,242,.92);border-radius:34px;padding:24px 28px;margin-bottom:14px;display:flex;gap:22px;align-items:center;opacity:{1-i*.12};transform:scale({1-i*.015})">
  <div style="flex:none;width:76px;height:76px;border-radius:20px;background:{c}"></div>
@@ -275,13 +275,13 @@ cards = "".join(f"""<div style="background:rgba(251,248,242,.92);border-radius:3
 S[11] = g("ink", "Permission granted", f"""
 <div class="abs" style="left:150px;right:150px;top:130px;height:720px;border-radius:70px;border:14px solid #2A2622;overflow:hidden;background:linear-gradient(160deg,#54295A,#1A1816 75%);box-shadow:0 40px 90px rgba(0,0,0,.6)">
  <div style="text-align:center;margin-top:40px;font:300 120px Lexend;color:#FBF8F2;letter-spacing:-.02em">7:12</div>
- <div style="text-align:center;font:500 32px Lexend;color:#EFDEE2;margin-top:-6px">47 notifications</div>
+ <div style="text-align:center;font:500 32px Lexend;color:#EFDEE2;margin-top:-6px">47 notifications · before coffee</div>
  <div style="padding:28px 22px 0">{cards}</div>
  <div style="position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,#1A1816)"></div></div>
 <div class="abs" style="left:250px;right:250px;top:770px;border-radius:999px;background:#D9BE74;padding:22px 30px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 24px 50px rgba(0,0,0,.5)">
- <span style="font:600 36px Lexend;color:#1A1816">🌙 Do Not Disturb</span>
- <span style="width:110px;height:60px;border-radius:30px;background:#1A1816;position:relative"><span style="position:absolute;right:7px;top:7px;width:46px;height:46px;border-radius:50%;background:#D9BE74"></span></span></div>
-""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=190, size=104, color="#F8F4ED"), "Mute the noise →")
+ <span style="font:600 38px Lexend;color:#1A1816">Unfollow 3 accounts</span>
+ <span style="width:64px;height:64px;border-radius:50%;background:#1A1816;color:#D9BE74;font:700 38px Lexend;display:flex;align-items:center;justify-content:center">✓</span></div>
+""" + head("Turn it down. <em>You're fine.</em>", bottom=180, size=116, color="#F8F4ED"), "Mute the noise →")
 
 if __name__ == "__main__":
     out = HERE / "html"; out.mkdir(exist_ok=True)
