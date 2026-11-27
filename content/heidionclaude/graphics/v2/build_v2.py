@@ -154,7 +154,7 @@ S[16] = g("ink", "Reality check", f"""
 
 # 18 never alone
 never = ["Legal wording", "Tax decisions", "Medical advice", "Firing someone", "Sending unread"]
-S[18] = g("deep", "The owner decides", f"""
+S[18] = g("deep", "Know the limits", f"""
 <div class="abs" style="right:40px;top:120px;font-size:420px;line-height:1;opacity:.9">🔒</div>
 <div class="abs" style="left:72px;top:190px">
  {''.join(f'<div style="font:500 44px Lexend;padding:12px 0;color:#38203E"><span class="s" style="color:#A0466F;font-size:56px">✕</span>&nbsp; {t}</div>' for t in never)}
