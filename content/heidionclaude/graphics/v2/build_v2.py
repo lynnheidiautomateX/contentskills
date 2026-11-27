@@ -241,6 +241,28 @@ S[30] = g("paper", "If you only do one thing", """
  """ + "".join(f'<div class="card" style="padding:26px 30px;font:500 38px/1.25 Lexend">{t}</div>' for t in ("Pick a weekly task","Define “great”","Try it today")) + """</div>
 """ + head("Then tell me: <em>win or flop?</em>", bottom=190, size=110), "Report back ↓")
 
+# 29 (redesign) S29_EXAM: "cheating" is a school word, so show the exam
+PEN = "#B8325F"
+rules = ["No calculator", "No accountant", "No templates", "No Claude"]
+lines = "".join(f'<div style="position:absolute;left:0;right:0;top:{y}px;height:2px;background:#D6E2EE"></div>' for y in range(150, 690, 62))
+S[29] = g("plum", "Agree?", f"""
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap">
+<div class="abs" style="left:96px;right:96px;top:150px;height:700px;transform:rotate(-2.5deg)">
+ <div class="abs" style="inset:0;background:#FDFCF7;border-radius:6px;box-shadow:0 40px 90px rgba(0,0,0,.45);overflow:hidden">
+  {lines}
+  <div style="position:absolute;left:84px;top:0;bottom:0;width:3px;background:rgba(184,50,95,.35)"></div>
+  <div style="position:absolute;left:120px;right:50px;top:44px;display:flex;justify-content:space-between;align-items:baseline">
+   <span style="font:700 40px Lexend;letter-spacing:.08em;color:#1A1816">FINAL EXAM</span>
+   <span style="font:500 32px Lexend;color:#5A5048">Running your business</span></div>
+  <div style="position:absolute;left:120px;top:118px;font:600 34px Lexend;color:#1A1816;letter-spacing:.12em">RULES:</div>
+  <div style="position:absolute;left:120px;right:60px;top:176px">
+   {''.join(f'<div style="height:62px;display:flex;align-items:center;font:500 44px Lexend;color:#1A1816"><span class="strike" style="--c:{PEN}">{r}</span></div>' for r in rules)}
+   <div style="height:62px;display:flex;align-items:center;font:500 44px Lexend;color:#1A1816"><span class="strike">Do it all yourself</span></div></div>
+  <div style="position:absolute;left:110px;top:500px;font:700 124px Caveat,cursive;color:{PEN};transform:rotate(-6deg);line-height:1">This isn't school.</div>
+ </div></div>
+<style>.strike:after{{background:{PEN};height:9px;top:55%}}</style>
+""" + head("Using Claude <em>isn't cheating.</em>", bottom=190, size=118, color="#FBF8F2"), "Where's your line? ↓")
+
 if __name__ == "__main__":
     out = HERE / "html"; out.mkdir(exist_ok=True)
     expected = [n for n in range(1, 31) if n not in (5, 17, 19)]
