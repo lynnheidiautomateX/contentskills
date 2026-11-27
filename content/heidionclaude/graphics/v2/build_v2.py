@@ -51,13 +51,13 @@ S[1] = g("paper", "Sound familiar?", """
    <span style="width:96px;height:96px;border-radius:50%;background:#A0466F;color:#fff;font:600 64px Lexend;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 18px rgba(160,70,111,.25)">×</span></div></div>
  <div style="padding:110px 50px 44px;font:400 36px/1.4 Lexend;color:#9a9089">“In today's fast-paced digital landscape, businesses like yours…”</div></div>
 <svg class="abs" style="left:436px;top:238px" width="120" height="155" viewBox="0 0 70 90"><path d="M5 5 L5 70 L22 55 L35 85 L47 80 L34 50 L58 50 Z" fill="#fff" stroke="#1A1816" stroke-width="4"/></svg>
-""" + head("You closed the tab. <em>The setup was the problem.</em>", bottom=190, size=104), "Fix the setup →")
+""" + head("You closed the tab. <em>The setup was the problem.</em>", bottom=190, size=104), "Fix the setup ↓")
 
 # 2 prompt engineering
 S[2] = g("plum", "Myth", """
 <div class="abs s" style="left:72px;right:72px;top:190px;font-size:92px;color:#EFDEE2;opacity:.6">Advanced Prompt Engineering Course<br><span style="font-size:52px">12 modules · 40 hours · $497</span></div>
 <div class="abs" style="right:90px;top:520px;transform:rotate(-10deg)"><span class="stamp" style="background:#54295A;color:#FBF8F2;border-color:#FBF8F2;font-size:160px">SKIP</span></div>
-""" + head("Brief Claude like <em>a sharp new hire.</em>", bottom=190, size=104), "Context wins →")
+""" + head("Brief Claude like <em>a sharp new hire.</em>", bottom=190, size=104), "Context wins ↓")
 
 # 3 task that shouldn't exist
 S[3] = g("rose", "Your turn", """
@@ -71,28 +71,28 @@ bub = "".join(f'<div style="display:flex;justify-content:flex-end;margin-bottom:
 S[4] = g("deep", "Write it once", f"""
 <div class="abs" style="left:72px;right:72px;top:170px">{bub}</div>
 <div class="abs" style="left:72px;top:330px;font:600 40px Lexend;color:#A0466F;transform:rotate(-6deg)">Chat #47 ↺</div>
-""" + head("Claude shouldn't hear your intro <em>47 times.</em>", bottom=190, size=100), "1 page fixes it →")
+""" + head("Claude shouldn't hear your intro <em>47 times.</em>", bottom=190, size=100), "1 page fixes it ↓")
 
 # 6 ask too fast
 S[6] = g("ink", "1 line fixes it", """
 <div class="abs" style="left:72px;right:72px;top:420px;border-radius:44px;background:#2A2622;border:4px solid #B68A3E;padding:44px 50px;display:flex;align-items:center;gap:30px">
  <div class="s" style="flex:1;font-size:66px;color:#F8F4ED">Ask me 5 questions before you answer.</div>
  <div style="flex:none;width:120px;height:120px;border-radius:50%;background:#D9BE74;color:#1A1816;font:600 64px Lexend;display:flex;align-items:center;justify-content:center">↑</div></div>
-""" + head("Generic answers? <em>You asked too fast.</em>", bottom=190, size=104, color="#F8F4ED"), "Try it today →")
+""" + head("Generic answers? <em>You asked too fast.</em>", bottom=190, size=104, color="#F8F4ED"), "Try it today ↓")
 
 # 7 Shannon
 S[7] = g("rose", "Client story", """
 <div class="abs s" style="left:60px;top:200px;font-size:520px;line-height:.85;color:#A0466F">75</div>
 <div class="abs" style="left:72px;top:670px;font:600 48px Lexend;color:#38203E">pages. Out of date.</div>
 """ + head("Updated <em>in one evening.</em>", bottom=330, size=112) + """
-<div class="abs" style="left:72px;right:72px;bottom:190px;font:500 34px Lexend;color:#54295A">Shannon, online seller</div>""", "Start from the last one →")
+<div class="abs" style="left:72px;right:72px;bottom:190px;font:500 34px Lexend;color:#54295A">Shannon, online seller</div>""", "Start from the last one ↓")
 
 # 8 robotic
 S[8] = g("plum", "Myth", """
 <div class="abs card" style="left:72px;right:72px;top:180px;padding:56px">
  <div class="s" style="font-size:72px;color:#9a9089"><span class="strike">Unlock your potential with innovative solutions.</span></div></div>
 """ + head("Not robotic. <em>Under-briefed.</em>", bottom=320, size=120, color="#FBF8F2") + """
-<div class="abs" style="left:72px;right:72px;bottom:190px;font:500 36px Lexend;color:#EFDEE2">Feed it 3 of your real posts first.</div>""", "Try it →")
+<div class="abs" style="left:72px;right:72px;bottom:190px;font:500 36px Lexend;color:#EFDEE2">Feed it 3 of your real posts first.</div>""", "Try it ↓")
 
 # 9 poll
 S[9] = g("berry", "Vote", """
@@ -106,13 +106,13 @@ S[10] = g("paper", "Monday, 10 minutes", f"""
 <div class="abs card" style="left:72px;right:72px;top:170px;padding:30px 56px;transform:rotate(-2deg)">
  {''.join(f'<div style="font:400 50px Lexend;padding:16px 0;border-bottom:2px solid #EFE9DE;color:{"#b5aaa0" if c else "#1A1816"}"><span class="{"strike" if c else ""}">{t}</span></div>' for t,c in todo)}</div>
 <div class="abs" style="right:60px;top:640px;transform:rotate(8deg);background:#A0466F;color:#fff;font:600 64px Lexend;padding:16px 36px;border-radius:20px">−3</div>
-""" + head("Fewer tasks. <em>Not a prettier list.</em>", bottom=190, size=100), "Steal the prompt →")
+""" + head("Fewer tasks. <em>Not a prettier list.</em>", bottom=190, size=100), "Steal the prompt ↓")
 
 # 11 feed
 S[11] = g("ink", "Permission granted", """
 <div class="abs" style="left:72px;right:72px;top:200px">
  """ + "".join(f'<div style="display:flex;justify-content:space-between;align-items:center;background:#2A2622;border-radius:26px;padding:30px 36px;margin-bottom:20px;opacity:{o}"><span style="font:500 40px Lexend;color:#F8F4ED">{t}</span><span style="font:600 34px Lexend;color:#1A1816;background:#D9BE74;border-radius:999px;padding:12px 26px">Unfollow</span></div>' for t,o in (("“10 NEW tools 🚨”",1),("“You're behind”",.75),("“I automated it all”",.5))) + """</div>
-""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=190, size=104, color="#F8F4ED"), "Mute the noise →")
+""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=190, size=104, color="#F8F4ED"), "Mute the noise ↓")
 
 # 12 five hours
 S[12] = g("rose", "Be honest", """
@@ -128,14 +128,14 @@ S[13] = g("deep", "Inbox", """
  <div style="font:600 32px Lexend;letter-spacing:.12em;color:#8C6A2A">RE: WHAT'S THE NEXT STEP?</div>
  <div class="s" style="font-size:64px;margin-top:20px;color:#38203E">Thanks so much for reaching out! The next step is…</div></div>
 <div class="abs" style="right:80px;top:560px;transform:rotate(-10deg)"><span class="stamp" style="background:#EFE9DE">AGAIN?</span></div>
-""" + head("Stop writing it <em>from scratch.</em>", bottom=190, size=110), "Copy the prompt →")
+""" + head("Stop writing it <em>from scratch.</em>", bottom=190, size=110), "Copy the prompt ↓")
 
 # 14 first draft
 S[14] = g("plum", "Myth", """
 <div class="abs" style="left:50%;top:160px;transform:translateX(-50%);width:560px;height:560px;border-radius:50%;background:conic-gradient(#D9BE74 0 70%, rgba(255,255,255,.14) 70% 100%);display:flex;align-items:center;justify-content:center">
  <div style="width:430px;height:430px;border-radius:50%;background:#54295A;display:flex;flex-direction:column;align-items:center;justify-content:center">
   <div class="s" style="font-size:200px;color:#FBF8F2">70%</div><div style="font:500 36px Lexend;color:#EFDEE2">draft 1</div></div></div>
-""" + head("A head start, <em>not a verdict.</em>", bottom=190, size=110, color="#FBF8F2"), "Keep going →")
+""" + head("A head start, <em>not a verdict.</em>", bottom=190, size=110, color="#FBF8F2"), "Keep going ↓")
 
 # 15 fewer ideas
 S[15] = g("paper", "Content", """
@@ -144,22 +144,22 @@ S[15] = g("paper", "Content", """
  <div style="font:600 120px Lexend;color:#B68A3E">→</div>
  <div class="s" style="font-size:440px;color:#A0466F;line-height:.85">9</div></div>
 <div class="abs" style="left:72px;right:72px;top:620px;display:flex;justify-content:space-between;font:500 36px Lexend;color:#5A5048"><span>idea</span><span>3 angles × 3 hooks</span></div>
-""" + head("Fewer ideas. <em>Used harder.</em>", bottom=190, size=110), "Save the method →")
+""" + head("Fewer ideas. <em>Used harder.</em>", bottom=190, size=110), "Save the method ↓")
 
 # 16 tools vs habit
 tiles = "".join(f'<div style="aspect-ratio:1;border-radius:20px;background:{"#D9BE74" if i==13 else "#2A2622"};display:flex;align-items:center;justify-content:center;font:600 64px Lexend;color:#1A1816">{"1" if i==13 else ""}</div>' for i in range(20))
 S[16] = g("ink", "Reality check", f"""
 <div class="abs" style="left:72px;right:72px;top:170px;display:grid;grid-template-columns:repeat(5,1fr);gap:16px">{tiles}</div>
-""" + head("20 tools won't stick. <em>1 habit will.</em>", bottom=190, size=104, color="#F8F4ED"), "Pick 1 →")
+""" + head("20 tools won't stick. <em>1 habit will.</em>", bottom=190, size=104, color="#F8F4ED"), "Pick 1 ↓")
 
 # 18 never alone
 never = ["Legal wording", "Tax decisions", "Medical advice", "Firing someone", "Sending unread"]
-S[18] = g("deep", "Almost 15 yrs in compliance", f"""
+S[18] = g("deep", "The owner decides", f"""
 <div class="abs" style="right:40px;top:120px;font-size:420px;line-height:1;opacity:.9">🔒</div>
 <div class="abs" style="left:72px;top:190px">
  {''.join(f'<div style="font:500 44px Lexend;padding:12px 0;color:#38203E"><span class="s" style="color:#A0466F;font-size:56px">✕</span>&nbsp; {t}</div>' for t in never)}
  <div style="font:500 34px Lexend;color:#5A5048;margin-top:10px">+2 more in the post</div></div>
-""" + head("The tool drafts. <em>The owner decides.</em>", bottom=190, size=100), "Save this →")
+""" + head("The tool drafts. <em>The owner decides.</em>", bottom=190, size=100), "Save this ↓")
 
 # 20 pushback
 S[20] = g("paper", "Better decisions", """
@@ -167,7 +167,7 @@ S[20] = g("paper", "Better decisions", """
  <div class="s" style="font-size:72px;color:#9a9089"><span class="strike">Great plan! Love it!</span></div></div>
 <div class="abs sticky" style="left:220px;right:72px;top:430px;padding:44px;transform:rotate(-3deg)">
  <div class="s" style="font-size:70px">“Poke holes in this. What would a skeptic say?”</div></div>
-""" + head("Ask for <em>pushback,</em> not praise.", bottom=190, size=110), "Get pushback →")
+""" + head("Ask for <em>pushback,</em> not praise.", bottom=190, size=110), "Get pushback ↓")
 
 # 21 not tech people
 S[21] = g("rose", "Myth", """
@@ -175,7 +175,7 @@ S[21] = g("rose", "Myth", """
 <div class="abs s" style="left:40px;top:250px;font-size:560px;line-height:.9;color:#A0466F">0</div>
 <div class="abs" style="left:520px;right:72px;top:280px;display:flex;flex-direction:column;gap:16px">
  """ + "".join(f'<div class="card" style="padding:18px 28px;font:500 36px Lexend;transform:rotate({r}deg)">{t}</div>' for t,r in (("Business coach",-2),("Online seller",1.5),("Researcher",-1),("Studio owner",2))) + """</div>
-""" + head("You know enough. <em>Claude organizes it.</em>", bottom=190, size=100), "You're ready →")
+""" + head("You know enough. <em>Claude organizes it.</em>", bottom=190, size=100), "You're ready ↓")
 
 # 22 newsletter
 S[22] = g("ink", "Before / after", """
@@ -184,7 +184,7 @@ S[22] = g("ink", "Before / after", """
 <div class="abs" style="left:72px;right:72px;top:420px;border-radius:28px;background:#FBF8F2;padding:36px 44px;border:6px solid #D9BE74">
  <div style="font:600 32px Lexend;color:#8C6A2A">AFTER</div>
  <div style="font:500 38px/1.45 Lexend;color:#1A1816;margin-top:8px">Audience. Goal. Tone.<br>Last month's issue.<br>Ask me 3 questions first.</div></div>
-""" + head("Same tool. <em>More context.</em>", bottom=190, size=110, color="#F8F4ED"), "Steal the after →")
+""" + head("Same tool. <em>More context.</em>", bottom=190, size=110, color="#F8F4ED"), "Steal the after ↓")
 
 # 23 strategy
 S[23] = g("deep", "Permission", """
@@ -193,13 +193,13 @@ S[23] = g("deep", "Permission", """
  <div style="font:600 280px Lexend;color:#A0466F;text-align:center;line-height:1;margin-top:20px">✕</div></div>
 <div class="abs sticky" style="right:72px;top:330px;width:380px;padding:44px;transform:rotate(4deg)">
  <div class="s" style="font-size:66px">1 task.<br>1 try.<br>This week.</div></div>
-""" + head("Experiment <em>beats strategy.</em>", bottom=190, size=110), "Run 1 →")
+""" + head("Experiment <em>beats strategy.</em>", bottom=190, size=110), "Run 1 ↓")
 
 # 24 meeting notes
 S[24] = g("plum", "Under a minute", """
 <div class="abs" style="left:72px;right:72px;top:170px;display:flex;flex-direction:column;gap:22px">
  """ + "".join(f'<div class="card" style="padding:34px 44px;display:flex;align-items:center;gap:30px"><span class="s" style="font-size:110px;color:#A0466F;line-height:.8">{i}</span><span style="font:600 52px Lexend;color:#38203E">{t}</span></div>' for i,t in ((1,"Decided"),(2,"Who does what"),(3,"Still open"))) + """</div>
-""" + head("Your notes need <em>3 lists.</em>", bottom=190, size=110, color="#FBF8F2"), "Copy the 3 lists →")
+""" + head("Your notes need <em>3 lists.</em>", bottom=190, size=110, color="#FBF8F2"), "Copy the 3 lists ↓")
 
 # 25 tabs
 S[25] = g("rose", "Be honest", """
@@ -213,20 +213,20 @@ S[25] = g("rose", "Be honest", """
 S[26] = g("paper", "Case study", """
 <div class="abs s" style="left:50px;top:130px;font-size:520px;line-height:.85;color:#54295A">~6h</div>
 <div class="abs" style="left:72px;top:620px;font:600 48px Lexend;color:#A0466F">back every week.</div>
-""" + head("Her follow-ups <em>run on their own now.</em>", bottom=190, size=100), "Learn to build it →")
+""" + head("Her follow-ups <em>run on their own now.</em>", bottom=190, size=100), "Learn to build it ↓")
 
 # 27 overwhelm
 S[27] = g("berry", "Reframe", """
 <div class="abs" style="left:72px;right:72px;top:180px;display:flex;gap:22px">
  """ + "".join(f'<div class="card" style="flex:1;padding:44px 10px;text-align:center"><div class="s" style="font-size:240px;color:#A0466F;line-height:.85">1</div><div style="font:600 44px Lexend;color:#38203E;margin-top:16px">{t}</div></div>' for t in ("task","prompt","week")) + """</div>
-""" + head("Overwhelm isn't a skills problem. <em>It's a plan problem.</em>", bottom=190, size=92, color="#FBF8F2"), "Make the plan →")
+""" + head("Overwhelm isn't a skills problem. <em>It's a plan problem.</em>", bottom=190, size=92, color="#FBF8F2"), "Make the plan ↓")
 
 # 28 one page
 S[28] = g("deep", "Subtract", """
 <div class="abs card" style="left:180px;right:180px;top:170px;height:600px;padding:50px;border-radius:10px;transform:rotate(2deg)">
  <div style="display:flex;justify-content:space-between;font:600 32px Lexend;color:#8C6A2A"><span>MY CLAUDE SETUP</span><span>1 / 1</span></div>
  """ + "".join(f'<div style="font:600 42px Lexend;color:#54295A;margin-top:34px"><span class="s" style="color:#A0466F;font-size:56px">{i}</span>&nbsp; {t}</div>' for i,t in enumerate(("Business note","3 prompts","Voice samples","Never-do list"),1)) + """</div>
-""" + head("Longer than a page? <em>You're adding.</em>", bottom=190, size=100), "Build yours →")
+""" + head("Longer than a page? <em>You're adding.</em>", bottom=190, size=100), "Build yours ↓")
 
 # 29 cheating
 S[29] = g("ink", "Agree?", """
@@ -281,7 +281,7 @@ S[11] = g("ink", "Permission granted", f"""
 <div class="abs" style="left:250px;right:250px;top:770px;border-radius:999px;background:#D9BE74;padding:22px 30px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 24px 50px rgba(0,0,0,.5)">
  <span style="font:600 38px Lexend;color:#1A1816">Unfollow 3 accounts</span>
  <span style="width:64px;height:64px;border-radius:50%;background:#1A1816;color:#D9BE74;font:700 38px Lexend;display:flex;align-items:center;justify-content:center">✓</span></div>
-""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=180, size=104, color="#F8F4ED"), "Mute the noise →")
+""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=180, size=104, color="#F8F4ED"), "Mute the noise ↓")
 
 if __name__ == "__main__":
     out = HERE / "html"; out.mkdir(exist_ok=True)
