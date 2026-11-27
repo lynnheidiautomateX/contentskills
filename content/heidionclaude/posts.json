@@ -1,0 +1,253 @@
+[
+ {
+  "n": 1,
+  "type": "Story",
+  "hook": "You opened Claude, typed one line, got a stranger's paragraph back, and closed the tab.",
+  "body": "The tool wasn't the problem. Nobody showed you the setup: your pricing, your voice and your clients, written down once, before you type a word.\n\nStop hunting for a better prompt. Write the one page Claude reads first.",
+  "hook_score": 7,
+  "overall": 7.2
+ },
+ {
+  "n": 2,
+  "type": "Myth-bust",
+  "hook": "Skip the prompt engineering course.",
+  "body": "You don't need clever phrasing. You need to brief Claude the way you'd brief a sharp new hire: who you serve, what good looks like, what you'd never say.\n\nMost owners aren't missing a technique. They're missing the habit of giving context.",
+  "hook_score": 7,
+  "overall": 7.1
+ },
+ {
+  "n": 3,
+  "type": "Question",
+  "hook": "There's 1 task in your week that shouldn't exist.",
+  "body": "Not delegate. Delete.\n\nDrop it in the comments. I'll reply to as many as I can with how Claude could take the first pass at it.",
+  "old_hook": "Name 1 task you'd delete from your week if you could.",
+  "hook_score": 7,
+  "overall": 6.9
+ },
+ {
+  "n": 4,
+  "type": "How-to",
+  "hook": "Re-explaining your business every chat is the most expensive habit in AI.",
+  "body": "Write it down once. 1 page: who you serve, how you sound, 3 things you'd never say, 1 example of your best work.\n\nPut it in a Claude Project's instructions and every chat in that project starts with it. Your drafts stop sounding like everyone else's.",
+  "old_hook": "Stop re-explaining your business to Claude every chat.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 5,
+  "type": "Checklist",
+  "hook": "5 signs AI is adding work to your week instead of removing it.",
+  "body": "1. 6 tabs of \"AI tools to try\" open\n2. 40 saved prompts you've never used\n3. Every chat starts from zero\n4. You judged Claude on 1 bad answer\n5. You feel behind everyone online\n\n3 or more? You don't need more AI. You need less, set up once.",
+  "hook_score": 7.5,
+  "overall": 7.6
+ },
+ {
+  "n": 6,
+  "type": "Reframe",
+  "hook": "Your Claude answers are generic because you ask too fast.",
+  "body": "Add 1 line before your request: \"Ask me 5 questions before you answer.\"\n\nClaude stops guessing and works from what you need. Slower start, better first draft.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 7,
+  "type": "Client story",
+  "hook": "Her 75-page guide was from last year. The update took one evening.",
+  "body": "Shannon runs an online shop. Her words: \"Heidi had the new version back to me for review the same evening, with designs and all.\"\n\nThe guide never needed more effort from her. It needed a system that starts from the last version instead of a blank page.",
+  "old_hook": "She kept meaning to update a 75-page guide. It never moved.",
+  "hook_score": 7.5,
+  "overall": 7.5
+ },
+ {
+  "n": 8,
+  "type": "Myth-bust",
+  "hook": "AI doesn't make your content robotic. Blank chats do.",
+  "body": "Give Claude 3 of your real past posts. Ask: \"What do you notice about how I write?\" Then: \"Draft the next one in that voice.\"\n\nEdit it like any draft. Your voice is the asset. Claude is the assistant.",
+  "hook_score": 7.5,
+  "overall": 7.4
+ },
+ {
+  "n": 9,
+  "type": "Poll",
+  "hook": "Most owners blame time. I don't think time is your AI bottleneck.",
+  "body": "Which one is it for you?\nA) I don't know where to start\nB) The answers sound generic\nC) I don't trust it yet\nD) OK, it's time\n\nComment your letter. The winner gets the next post.",
+  "hook_score": 7,
+  "overall": 7.1
+ },
+ {
+  "n": 10,
+  "type": "How-to",
+  "hook": "Your to-do list doesn't need a better app. It needs a cut.",
+  "body": "Paste your list into Claude and send: \"Group these by effort and impact. Flag what I could delete, delegate or simplify. Then give me a realistic order for the week.\"\n\n10 minutes on Monday. Fewer tasks, not a prettier list.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 11,
+  "type": "Reframe",
+  "hook": "You're not behind on AI. You're following too many people.",
+  "body": "Every feed shows someone 10 steps ahead with a new tool.\n\nThe only AI that matters this month is the one that takes a task off your plate this month. You're allowed to ignore the rest.",
+  "hook_score": 7.5,
+  "overall": 7.5
+ },
+ {
+  "n": 12,
+  "type": "Question",
+  "hook": "5 extra hours a week won't change anything if you spend them working.",
+  "body": "Tell me what you'd do. Rest, sell, create, be home for dinner?\n\nOne founder I worked with got roughly 6 hours a week back once her follow-ups ran on their own. That answer is the reason to learn this. Not the tool.",
+  "old_hook": "Don't tell me what you'd work on with 5 extra hours a week.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 13,
+  "type": "Template",
+  "hook": "Every customer reply you write from scratch is one you've already written.",
+  "body": "Send Claude: \"Here's a message from a customer: [paste]. Here's how I usually respond: [paste an example]. Draft a reply in my voice, warm and clear, and flag anything I should check before sending.\"\n\nClaude drafts. You decide. Always read before you send.",
+  "old_hook": "Stop writing customer replies from a blank screen.",
+  "hook_score": 7.5,
+  "overall": 7.3
+ },
+ {
+  "n": 14,
+  "type": "Myth-bust",
+  "hook": "Claude's first draft isn't supposed to be good.",
+  "body": "A draft that's 70% right is a head start. Reply: \"Here's what's off. Fix it.\" Then do it again.\n\nIteration is the skill. Most people stop at round 1 and blame the tool.",
+  "old_hook": "Quitting after Claude's first draft is the mistake.",
+  "hook_score": 7.5,
+  "overall": 7.4
+ },
+ {
+  "n": 15,
+  "type": "How-to",
+  "hook": "You don't need more content ideas. You need fewer, used harder.",
+  "body": "Give Claude 1 idea, story or client question. Ask for 3 angles, 3 hooks per angle, and the best format for each.\n\nPick your favorites, rewrite them in your voice, schedule. 1 idea, a week of posts.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 16,
+  "type": "Reality check",
+  "hook": "Trying every new AI tool is why none of them stick.",
+  "body": "Open Claude at the same time every day for 1 small task.\n\n2 weeks later it's second nature. Consistency beats exploring.",
+  "old_hook": "You don't need 20 AI tools. You need 1 habit.",
+  "hook_score": 7.5,
+  "overall": 7.3
+ },
+ {
+  "n": 17,
+  "type": "Client story",
+  "hook": "\"I put this off for a year because it sounded technical.\"",
+  "body": "That's Joan, a clinical researcher. We sat with a pile of her documents and walked her process. By the end of the weekend she was running it on her own. Her words: \"Simple, valuable, done.\"\n\nOverwhelm looks like incompetence. Usually it's missing structure.",
+  "hook_score": 7.5,
+  "overall": 7.7
+ },
+ {
+  "n": 18,
+  "type": "Listicle",
+  "hook": "7 things I'd never let Claude do alone.",
+  "body": "Final legal wording. Tax decisions. Medical advice. Firing someone. Anything you won't proofread. Replacing your judgment. Sending without reading.\n\nAlmost 15 years in compliance taught me this: the tool drafts, the owner decides.",
+  "hook_score": 7,
+  "overall": 7.3
+ },
+ {
+  "n": 19,
+  "type": "Subtract",
+  "hook": "Your saved prompt library is slowing you down.",
+  "body": "40 saved prompts, none used. Keep the 3 you'd miss. Delete the rest.\n\nWhich 1 would you keep? Share it below.",
+  "hook_score": 7.5,
+  "overall": 7.6
+ },
+ {
+  "n": 20,
+  "type": "How-to",
+  "hook": "Stop asking Claude if your plan is good.",
+  "body": "You'll hear what you want to hear. Send this instead: \"Poke holes in this plan. What am I not seeing? What would a skeptical customer say?\"\n\nBetter calls come from pushback, and Claude is up at 10pm.",
+  "hook_score": 7.5,
+  "overall": 7.5
+ },
+ {
+  "n": 21,
+  "type": "Myth-bust",
+  "hook": "The people getting the most from Claude aren't tech people.",
+  "body": "My clients include a business coach, an online seller, a clinical researcher, a boutique studio owner and an independent consultant. None of them code.\n\nWhat they have is deep knowledge of their own business. Claude organizes what you already know.",
+  "hook_score": 7,
+  "overall": 7.2
+ },
+ {
+  "n": 22,
+  "type": "Before/after",
+  "hook": "\"Write me a newsletter\" is why your newsletter sounds like everyone's.",
+  "body": "Before: \"Write me a newsletter.\"\n\nAfter: \"Write this month's newsletter for [your audience]. Goal: get replies about [your offer]. Tone: warm, direct, no hype. Here's last month's issue so you know my voice: [paste]. Ask me 3 questions first.\"\n\nSame tool. The difference is context.",
+  "hook_score": 7,
+  "overall": 7.1
+ },
+ {
+  "n": 23,
+  "type": "Encouragement",
+  "hook": "Stop planning your AI strategy.",
+  "body": "Run 1 small experiment this week. Pick a task. Try it. Notice what happens.\n\nMomentum comes from small tries, not big plans.",
+  "hook_score": 7,
+  "overall": 7.0
+ },
+ {
+  "n": 24,
+  "type": "How-to",
+  "hook": "Nobody needs your meeting notes. They need what was decided.",
+  "body": "Paste your notes into Claude and ask for 3 lists: decisions made, action items with owners, open questions.\n\nUnder a minute. Leave out client details you wouldn't share, and check your privacy settings first.",
+  "old_hook": "Your meeting notes are useless until someone pulls out the decisions.",
+  "hook_score": 7,
+  "overall": 6.9
+ },
+ {
+  "n": 25,
+  "type": "Question",
+  "hook": "Every AI tab you have open is a decision you haven't made.",
+  "body": "No judgment: how many are open right now? Comment your number.\n\nMore than 3? This week's assignment is to close them all and keep the one you use.",
+  "old_hook": "Close every AI tab you have open. Keep 1.",
+  "hook_score": 7.5,
+  "overall": 7.2
+ },
+ {
+  "n": 26,
+  "type": "Case study",
+  "hook": "Her leads lived in her inbox and her memory.",
+  "body": "A service-based founder came to me carrying every follow-up in her head. 4 weeks later the full client journey was mapped, the leak points were named, and the follow-up ran on its own. She got roughly 6 hours a week back.\n\nShe had me build it. You can learn to build it yourself.",
+  "hook_score": 7,
+  "overall": 7.4
+ },
+ {
+  "n": 27,
+  "type": "Reframe",
+  "hook": "Your overwhelm isn't a skills problem.",
+  "body": "It's proof you care about doing this well. Turn that care into a plan: 1 task, 1 prompt, 1 week.\n\nThen adjust. That's the whole method.",
+  "old_hook": "Overwhelm isn't a flaw. It's proof you care.",
+  "hook_score": 7,
+  "overall": 6.9
+ },
+ {
+  "n": 28,
+  "type": "How-to",
+  "hook": "Your whole Claude setup should fit on 1 page.",
+  "body": "4 parts: your business note, your 3 most-used prompts, 2 examples of your voice, a \"never do\" list.\n\nKeep it open while you work. Update it monthly. Longer than a page? You're adding, not subtracting.",
+  "hook_score": 7,
+  "overall": 7.1
+ },
+ {
+  "n": 29,
+  "type": "Myth-bust",
+  "hook": "Using Claude isn't cheating. Doing everything yourself isn't a virtue.",
+  "body": "You don't feel guilty using a calculator, an accountant or a template. The thinking, taste and relationships are still yours.\n\nTake the help. Spend the saved time on what only you can do. Where do you draw the line?",
+  "hook_score": 7.5,
+  "overall": 7.5
+ },
+ {
+  "n": 30,
+  "type": "Invitation",
+  "hook": "Ignore everything else I've posted this month. Do this 1 thing.",
+  "body": "Pick 1 task you repeat every week. Write down what a great result looks like. Try it with Claude today.\n\nThen come tell me what happened. I want the wins and the flops.",
+  "old_hook": "If this feed is the only AI help you get this month, do 1 thing.",
+  "hook_score": 7.5,
+  "overall": 7.3
+ }
+]
