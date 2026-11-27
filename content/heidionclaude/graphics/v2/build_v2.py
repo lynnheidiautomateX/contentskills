@@ -281,7 +281,7 @@ S[11] = g("ink", "Permission granted", f"""
 <div class="abs" style="left:250px;right:250px;top:770px;border-radius:999px;background:#D9BE74;padding:22px 30px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 24px 50px rgba(0,0,0,.5)">
  <span style="font:600 38px Lexend;color:#1A1816">Unfollow 3 accounts</span>
  <span style="width:64px;height:64px;border-radius:50%;background:#1A1816;color:#D9BE74;font:700 38px Lexend;display:flex;align-items:center;justify-content:center">✓</span></div>
-""" + head("Turn it down. <em>You're fine.</em>", bottom=180, size=116, color="#F8F4ED"), "Mute the noise →")
+""" + head("You're not behind. <em>Your feed is loud.</em>", bottom=180, size=104, color="#F8F4ED"), "Mute the noise →")
 
 if __name__ == "__main__":
     out = HERE / "html"; out.mkdir(exist_ok=True)
