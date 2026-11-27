@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px}
+body{background:var(--bg);color:var(--ink);font-family:Lexend,sans-serif;position:relative;overflow:hidden}
+.top{position:absolute;top:58px;left:96px;right:96px;display:flex;justify-content:space-between;
+  font:500 26px Lexend;letter-spacing:.22em;color:var(--lab);text-transform:uppercase}
+.wrap{position:absolute;left:96px;right:96px;top:170px;bottom:200px;display:flex;flex-direction:column}
+.kick{font:500 28px Lexend;letter-spacing:.2em;text-transform:uppercase;color:var(--lab);margin-bottom:22px}
+h1{font-family:Newsreader,serif;font-weight:500;font-size:var(--hs,92px);line-height:1.04;letter-spacing:-.015em;color:var(--ink)}
+h1 em{font-style:italic;color:var(--acc);font-weight:400}
+.vis{flex:1;position:relative;margin-top:48px}
+.foot{position:absolute;left:96px;right:96px;bottom:64px;display:flex;justify-content:space-between;align-items:center}
+.url{font:500 32px Lexend;color:var(--ink)}
+.pill{font:600 34px Lexend;padding:24px 40px;border-radius:999px;background:var(--acc);color:var(--bg)}
+.card{background:var(--card);color:var(--cink);border-radius:22px;box-shadow:0 24px 60px rgba(40,20,40,.18)}
+.mono{font-family:'JetBrains Mono',monospace}
+.serif{font-family:Newsreader,serif}
+.strike{position:relative;display:inline-block}
+.strike:after{content:"";position:absolute;left:-6px;right:-6px;top:52%;height:9px;background:#A0466F;transform:rotate(-2deg)}
+.chip{display:inline-block;padding:12px 24px;border-radius:999px;font:500 28px Lexend}
+.center{display:flex;align-items:center;justify-content:center}
+</style></head>
+<body style="--bg:#1A1816;--ink:#F8F4ED;--acc:#D9BE74;--lab:#D9BE74;--card:#2A2622;--cink:#F8F4ED;--line:#B68A3E;--hs:96px">
+<div class="top"><span>Heidi on Claude</span><span></span></div>
+<div class="wrap"><div class="kick">1 line fixes it</div><h1>Generic answers? <em>You asked too fast.</em></h1><div class="vis">
+<div class="card" style="position:absolute;left:0;right:0;top:0;padding:34px 40px;border:2px solid #B68A3E">
+ <div class="mono" style="font-size:22px;color:#D9BE74;letter-spacing:.1em">ADD BEFORE YOUR REQUEST</div>
+ <div class="serif" style="font-size:52px;line-height:1.15;margin-top:12px">“Ask me 5 questions before you answer.”</div></div>
+<div style="position:absolute;left:0;right:0;bottom:10px;display:flex;flex-wrap:wrap;gap:16px">
+ <span class="chip" style="background:#2A2622;color:#F8F4ED;border:2px solid #5A5048"><b style="color:#D9BE74">1</b>&nbsp; Who reads this?</span><span class="chip" style="background:#2A2622;color:#F8F4ED;border:2px solid #5A5048"><b style="color:#D9BE74">2</b>&nbsp; What should they do after?</span><span class="chip" style="background:#2A2622;color:#F8F4ED;border:2px solid #5A5048"><b style="color:#D9BE74">3</b>&nbsp; What tone?</span><span class="chip" style="background:#2A2622;color:#F8F4ED;border:2px solid #5A5048"><b style="color:#D9BE74">4</b>&nbsp; Any example I like?</span><span class="chip" style="background:#2A2622;color:#F8F4ED;border:2px solid #5A5048"><b style="color:#D9BE74">5</b>&nbsp; What's off-limits?</span></div>
+</div></div>
+<div class="foot"><span class="url">heidionclaude.com</span><span class="pill">Try it today →</span></div>
+</body></html>
