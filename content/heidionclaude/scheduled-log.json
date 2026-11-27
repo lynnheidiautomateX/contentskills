@@ -262,5 +262,19 @@
   "threads": "7ded6d88-331c-415d-9f73-5a4923586b5b",
   "tiktok": "d0afd1a2-8aa1-4a07-a7b7-3f660b96fd2f",
   "linkedin": "PENDING: reconnect LinkedIn"
+ },
+ "_swaps": {
+  "24": {
+   "post": 29,
+   "date": "2027-01-27",
+   "graphic": "graphics/v2/png/v2-post-29.png",
+   "media": "https://database.blotato.io/storage/v1/object/public/public_media/d3d54f28-8559-4e4d-9a1d-a2fcdccd9a84/8b884128-712d-42e3-8fac-fd08d9b32cad.jpeg",
+   "schedule_ids": {
+    "facebook": "7614548",
+    "instagram": "7614552",
+    "twitter": "7614555",
+    "tiktok": "7614560"
+   }
+  }
  }
 }
