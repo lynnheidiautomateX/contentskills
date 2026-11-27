@@ -374,3 +374,13 @@ Pick 1 task you repeat every week. Write down what a great result looks like. Tr
 Then come tell me what happened. I want the wins and the flops.
 
 Comment SUBTRACT and I'll send you the free community link.
+
+## Top 3 predictions
+
+These are my calls from the grading, not data. Check them against saves and comments after week 2.
+
+1. **#17, Joan's quote (Dec 11).** It opens on a real client's words, which reads as proof instead of a promise. "It sounded technical" is the exact excuse this audience uses, so they see themselves in it. Expect comments that start with "same".
+2. **#5, the 5 signs checklist (Dec 2).** People save lists, and Instagram and Facebook reward saves. Each item is a habit the reader can count against herself, and the last line ("You need less, set up once") is your brand in one sentence. It's also the easiest post to turn into a carousel later.
+3. **#19, delete your prompt library (Dec 18).** It's the most contrarian hook in the batch. Every AI account tells people to save prompts, and this one tells them to delete them. Readers who agree and readers who push back both comment, and the closing question gives them an easy reply.
+
+The risk across all three: none of them carries a number from your own results. If you have one, adding it to #19 is the fastest upgrade.
