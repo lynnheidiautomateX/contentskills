@@ -113,7 +113,7 @@ B) The answers sound generic
 C) I don't trust it yet
 D) OK, it's time
 
-Comment your letter. The winner gets the next post.
+Comment your letter. I'll answer the top one in the comments.
 
 Comment SUBTRACT and I'll send you the free community link.
 
@@ -193,7 +193,7 @@ There's 1 task in your week that shouldn't exist.
 
 Not delegate. Delete.
 
-Drop it in the comments. I'll reply to as many as I can with how Claude could take the first pass at it.
+Drop it in the comments. I'll reply to as many as I can with how to cut it, or shrink it to a 2-minute review with Claude.
 
 Comment SUBTRACT and I'll send you the free community link.
 

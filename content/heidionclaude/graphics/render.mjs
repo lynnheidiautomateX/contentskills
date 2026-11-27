@@ -6,8 +6,10 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const only = process.argv.slice(2).map(n => `post-${String(n).padStart(2, '0')}.html`);
-const files = readdirSync(join(here, 'html')).filter(f => f.endsWith('.html') && (!only.length || only.includes(f))).sort();
+const args = process.argv.slice(2);
+const only = args.filter(a => /^\d+$/.test(a)).map(n => `post-${String(n).padStart(2, '0')}.html`);
+const prefixes = args.filter(a => !/^\d+$/.test(a));
+const files = readdirSync(join(here, 'html')).filter(f => f.endsWith('.html') && (!args.length || only.includes(f) || prefixes.some(p => f.startsWith(p)))).sort();
 mkdirSync(join(here, 'png'), { recursive: true });
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
