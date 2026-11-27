@@ -4,7 +4,7 @@ One offer for the whole run: the free community (heidionclaude.com/community), s
 
 - Facebook (LynnHeidi page) and LinkedIn: "Comment SUBTRACT" CTA. On Facebook a Blotato DM automation sends the link. On LinkedIn you reply by hand.
 - Threads and X: the link in the post. X posts over 280 characters go out as a short thread.
-- Instagram and TikTok are left out: both need an image or video, and these are text posts.
+- Every post now has a graphic (see Graphics), so Instagram and TikTok can be added.
 - Mon / Wed / Fri, 12:00 Pacific, Nov 30 2026 to Feb 10 2027. Skips Dec 24-25 and Dec 31-Jan 1. Your Tue/Sat series stays as is.
 
 Grades are my scores on the post-grader rubric (hook = 50%). They are predictions, not data. Replace them with saves and comments after week 2.
@@ -62,6 +62,10 @@ Grades are my scores on the post-grader rubric (hook = 50%). They are prediction
 - #12 and #26: the service-based founder case on heidionclaude.com (4 weeks, roughly 6 hours a week back).
 - #18: your almost 15 years in compliance. #21: the client roles in your published testimonials.
 - #22's brackets are for the reader to fill, like your scheduled receipt and jargon posts.
+
+## Graphics
+
+One 1080x1350 image per post in `graphics/png/post-NN.png` (NN = post number). Same look as your scheduled series: Newsreader + Lexend, plum, rose, paper and gilt. Rebuild with `python3 -I graphics/build_graphics.py && node graphics/render.mjs`. With images, Instagram and TikTok can carry these posts too.
 
 ## Full posts (Facebook version)
 
